@@ -37,6 +37,7 @@ body{
     background-color: rgba(1, 1, 54, 0.699);
 }
 
+
 .headerimage {
     height:350px;
     width:100%;
@@ -69,6 +70,10 @@ body{
 
 
 .aboutme p {
+    position: absolute;
+    border: 5px outset var(--niceblue);
+    border-radius: 15px;
+    background: linear-gradient(aquamarine,aqua);
     display:flex;
     float: right;
     width: 80%;
@@ -76,4 +81,66 @@ body{
     text-align: center;
     margin-top: 100px;
     margin-right: 30px;
+    margin-left: 250px;
+}
+
+.aboutme p:hover {
+    box-shadow: inset 60px 0 120px #f0f, inset -60px 0 120px #0ff;
+}
+
+.work h2 {
+    display:flex;
+    position:absolute;
+    margin-top: -20px;
+    font-size:45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.work hr {
+    display: flex;
+    position: absolute;
+    width: 6px; 
+    height: 800px; 
+    margin-left: 205px;
+    border-color: black;
+    background-color: black;
+    float:left;
+}
+
+.projectbox1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 250px;
+    width:80%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("radio.jpg");
+    background-position: center;
+    align-content: flex-end;
+}
+
+
+.titlebox {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
 }
