@@ -1,0 +1,44 @@
+:root {
+    --niceblue:rgb(10,160,160);
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headie {
+    border: 5px solid var(--niceblue);
+    background:linear-gradient(aqua,aquamarine);
+}
+
+.headie h1 {
+    margin-left: 10px;
+}
+
+.directional {
+    text-align: right;
+    padding:5px;
+}
+
+a {
+    font-size: 20px;
+    color:black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    background-color: rgba(1, 1, 54, 0.699);
+}
+
+.headerimage {
+    height:350px;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("../portfolio-hw2/coolblustuff.jpg");
+    background-size: cover;
+   /* background-position: center;*/
+}
