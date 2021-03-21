@@ -12,7 +12,13 @@
 }
 
 .headie h1 {
-    margin-left: 10px;
+    display: inline-block;
+    border: 5px solid var(--niceblue);
+    border-radius: 15px;
+    background-color: var(--niceblue);
+    margin-left: 20px;
+    font-size: 50px;
+    font-style: oblique;
 }
 
 .directional {
@@ -35,10 +41,39 @@ body{
     height:350px;
     width:100%;
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     background-image: url("../portfolio-hw2/coolblustuff.jpg");
-    background-size: cover;
-   /* background-position: center;*/
+    background-size: cover; 
+    background-position: center; 
+}
+
+.aboutme h2 {
+    display:flex;
+    font-size: 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float:left;
+}
+
+.aboutme hr {
+    width: 6px; 
+    height: 200px; 
+    margin-left: 20px;
+    display: inline-flex;
+    border-color: black;
+    background-color: black;
+    float:left;
+}
+
+
+.aboutme p {
+    display:flex;
+    float: right;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 30px;
 }
