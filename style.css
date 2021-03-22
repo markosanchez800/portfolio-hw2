@@ -332,10 +332,13 @@ body{
 
 }
 
+#contactme {
+    margin-top: 850px;
+}
+
 .contact h2 {
-    display:flex;
-    position:absolute;
-    margin-top:900px;
+    position: absolute;
+    margin-top: 50px;
     margin-left: 0px;
     font-size:45px;
     flex-direction: row;
@@ -343,9 +346,9 @@ body{
     float: left;
 }
 
+
 .contact hr {
-    display: flex;
-    position:absolute;
+    position: absolute;
     width: 6px; 
     height: 200px; 
     margin-left: 205px;
@@ -353,3 +356,24 @@ body{
     background-color: black;
     float:left;
 }
+
+ .contact p {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 260px;
+}
+
+.contact a {
+    margin-left: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 25px;
+    
+} 
+
