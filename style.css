@@ -91,7 +91,7 @@ body{
 .work h2 {
     display:flex;
     position:absolute;
-    margin-top: -20px;
+    margin-top: -15px;
     font-size:45px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -330,4 +330,26 @@ body{
                 0px 0px 4px 3px aquamarine,
                 0px 0px 6px 5px purple;
 
+}
+
+.contact h2 {
+    display:flex;
+    position:absolute;
+    margin-top:900px;
+    margin-left: 0px;
+    font-size:45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.contact hr {
+    display: flex;
+    position:absolute;
+    width: 6px; 
+    height: 200px; 
+    margin-left: 205px;
+    border-color: black;
+    background-color: black;
+    float:left;
 }
