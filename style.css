@@ -109,7 +109,7 @@ body{
     float:left;
 }
 
-.projectbox1 {
+.projectbox-1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -124,7 +124,7 @@ body{
     align-content: flex-end;
 }
 
-.projectbox1:hover{
+.projectbox-1:hover{
     box-shadow: 0px 0px 4px 1px  plum,
                 0px 0px 4px 3px aquamarine,
                 0px 0px 6px 5px purple;
@@ -153,7 +153,7 @@ body{
     margin-left: 50px;
 }
 
-.projectbox2 {
+.projectbox-2 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -198,7 +198,7 @@ body{
 
 }
 
-.projectbox3 {
+.projectbox-3 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -236,14 +236,14 @@ body{
     margin-left: 50px;
 }
 
-.projectbox3:hover{
+.projectbox-3:hover{
     box-shadow: 0px 0px 4px 1px  plum,
                 0px 0px 4px 3px aquamarine,
                 0px 0px 6px 5px purple;
 
 }
 
-.projectbox4 {
+.projectbox-4 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -281,14 +281,14 @@ body{
     margin-left: 50px;
 }
 
-.projectbox4:hover{
+.projectbox-4:hover{
     box-shadow: 0px 0px 4px 1px  plum,
                 0px 0px 4px 3px aquamarine,
                 0px 0px 6px 5px purple;
 
 }
 
-.projectbox5 {
+.projectbox-5 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -326,7 +326,7 @@ body{
     margin-left: 50px;
 }
 
-.projectbox5:hover{
+.projectbox-5:hover{
     box-shadow: 0px 0px 4px 1px  plum,
                 0px 0px 4px 3px aquamarine,
                 0px 0px 6px 5px purple;
@@ -378,4 +378,45 @@ body{
     font-size: 25px;
     
 } 
+
+
+@media screen and (max-width: 812px) {
+    header{
+        width:812px;
+    }
+    .headerimage{
+        width:812px;
+    }
+    .aboutme p{
+        width:600px;
+    }
+    .projectbox-1{
+        width:600px;
+    }
+    .projectbox-2{
+        width:250px;
+    }
+    .projectbox-3{
+        width:250px;
+        margin-left: 550px;
+    }
+    .projectbox-4{
+        width:250px;
+    }
+    .projectbox-5{
+        width:250px;
+        margin-left: 550px;
+    }
+    .contact hr {
+        height:500px;
+    }
+    .contact p {
+        flex-direction: column;
+
+    }
+    .contact a {
+        margin-left: 700px;
+        margin-bottom: 600px;
+    }
+  }
 
