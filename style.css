@@ -102,7 +102,7 @@ body{
     display: flex;
     position: absolute;
     width: 6px; 
-    height: 1200px; 
+    height: 1355px; 
     margin-left: 205px;
     border-color: black;
     background-color: black;
@@ -122,6 +122,13 @@ body{
     background-image: url("radio.jpg");
     background-position: center;
     align-content: flex-end;
+}
+
+.projectbox1:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
 }
 
 
@@ -150,6 +157,7 @@ body{
     flex-direction: column;
     flex-wrap:wrap;
     position: relative;
+    float: left;
     margin-top: 40px;
     margin-left: 250px;
     width:35%;
@@ -182,14 +190,22 @@ body{
     margin-left: 50px;
 }
 
+.projectbox2:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
 .projectbox3 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-    position:relative;
-    margin-top: 40px;
-    margin-left: 250px;
-    width:35%;
+    float: right;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 920px;
+    width:34.5%;
     height:400px;
     border: 10px solid var(--niceblue);
     background-image: url("weather.png");
@@ -219,8 +235,99 @@ body{
     margin-left: 50px;
 }
 
-table {
+.projectbox3:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+.projectbox4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    position:absolute;
+    float: left;
+    margin-top: 500px;
+    margin-left: 250px;
+    width:34.5%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("cheese.png");
+    background-position: center;
+    background-repeat: no-repeat;
     align-content: flex-end;
+}
+
+
+.titlebox4 {
+    display:flex;
+    position: absolute;
     flex-wrap: wrap;
-    flex-direction: row;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox4 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox4:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+.projectbox5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    float: right;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 920px;
+    width:34.5%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("numbs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+
+.titlebox5 {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox5 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox5:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
 }
