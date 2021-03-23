@@ -1,0 +1,444 @@
+/* Border color for all box elements */
+:root {
+    --niceblue:rgb(10,160,160);
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headie {
+    border: 5px solid var(--niceblue);
+    background:linear-gradient(aqua,aquamarine);
+}
+
+.headie h1 {
+    display: inline-block;
+    border: 5px solid var(--niceblue);
+    border-radius: 15px;
+    background-color: var(--niceblue);
+    margin-left: 20px;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.directional {
+    text-align: right;
+    padding:5px;
+}
+
+a {
+    font-size: 20px;
+    color:black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    background-color: rgba(1, 1, 54, 0.699);
+}
+
+
+.headerimage {
+    height:350px;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("./images/coolblustuff.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.aboutme h2 {
+    display:flex;
+    font-size: 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float:left;
+}
+/* hr elements are modified to be vertical for the separation lines */
+.aboutme hr {
+    width: 6px; 
+    height: 200px; 
+    margin-left: 20px;
+    display: inline-flex;
+    border-color: black;
+    background-color: black;
+    float:left;
+}
+
+
+.aboutme p {
+    position: absolute;
+    border: 5px outset var(--niceblue);
+    border-radius: 15px;
+    background: linear-gradient(aquamarine,aqua);
+    display:flex;
+    float: right;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 250px;
+}
+
+/* About me box is given a different shade when focused on */
+.aboutme p:hover {
+    box-shadow: inset 60px 0 120px #f0f, inset -60px 0 120px #0ff;
+}
+
+.work h2 {
+    display:flex;
+    position:absolute;
+    margin-top: -15px;
+    font-size:45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.work hr {
+    display: flex;
+    position: absolute;
+    width: 6px; 
+    height: 1355px; 
+    margin-left: 205px;
+    border-color: black;
+    background-color: black;
+    float:left;
+}
+
+.projectbox-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 250px;
+    width:80%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("./images/radio.jpg");
+    background-position: center;
+    align-content: flex-end;
+}
+
+/* Slight shadow highlight to indicate focus on box */ 
+.projectbox-1:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+
+
+.titlebox {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    margin-left: 250px;
+    width:35%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("./images/hexled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+
+.titlebox2 {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox2 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox-2:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+.projectbox-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    float: right;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 920px;
+    width:34.5%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("./images/weather.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+
+.titlebox3 {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox3 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox-3:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+.projectbox-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    position:absolute;
+    float: left;
+    margin-top: 500px;
+    margin-left: 250px;
+    width:34.5%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("./images/cheese.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+
+.titlebox4 {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox4 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox-4:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+.projectbox-5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    float: right;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 920px;
+    width:34.5%;
+    height:400px;
+    border: 10px solid var(--niceblue);
+    background-image: url("./images/numbs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+
+.titlebox5 {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width:200px;
+    height:100px;
+    border:5px solid var(--niceblue);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(mediumslateblue,aquamarine);
+    margin-left: 0px;
+    margin-top: 250px;
+}
+
+.titlebox5 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.projectbox-5:hover{
+    box-shadow: 0px 0px 4px 1px  plum,
+                0px 0px 4px 3px aquamarine,
+                0px 0px 6px 5px purple;
+
+}
+
+#contactme {
+    margin-top: 850px;
+}
+
+.contact h2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size:45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+}
+
+
+.contact hr {
+    position: absolute;
+    width: 6px; 
+    height: 200px; 
+    margin-left: 205px;
+    margin-top: 70px;
+    border-color: black;
+    background-color: black;
+    float:left;
+}
+
+ .contact p {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 260px;
+}
+
+.contact a {
+    margin-left: 90px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 25px;
+    
+} 
+
+footer h2 {
+    position:absolute;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 600px;
+    
+}
+
+/* For smartphones */
+@media screen and (max-width: 812px) {
+    header{
+        width:860px;
+    }
+    .headerimage{
+        width:860px;
+    }
+    .aboutme p{
+        width:600px;
+    }
+    .projectbox-1{
+        width:600px;
+    }
+    .projectbox-2{
+        width:250px;
+    }
+    .projectbox-3{
+        width:250px;
+        margin-left: 550px;
+    }
+    .projectbox-4{
+        width:250px;
+    }
+    .projectbox-5{
+        width:250px;
+        margin-left: 550px;
+    }
+    .contact hr {
+        height:360px;
+    }
+    .contact p {
+        margin-left: 500px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .contact p:last-of-type {
+        position: absolute;
+        margin-left: 370px;
+        margin-top: 60px;
+    }
+
+    .contact a {
+        margin-left: 500px;
+    }
+
+    footer h2 {
+        margin-left: 500px;
+        margin-bottom: -20px;
+    }
+  }
+
