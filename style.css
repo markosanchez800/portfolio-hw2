@@ -379,6 +379,14 @@ body{
     
 } 
 
+footer h2 {
+    position:absolute;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 600px;
+    
+}
+
 
 @media screen and (max-width: 828px) {
     header{
@@ -408,7 +416,7 @@ body{
         margin-left: 550px;
     }
     .contact hr {
-        height:500px;
+        height:360px;
     }
     .contact p {
         margin-left: 500px;
@@ -419,11 +427,15 @@ body{
         position: absolute;
         margin-left: 370px;
         margin-top: 60px;
-
     }
 
     .contact a {
         margin-left: 500px;
+    }
+
+    footer h2 {
+        margin-left: 500px;
+        margin-bottom: -20px;
     }
   }
 
