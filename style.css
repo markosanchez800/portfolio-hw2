@@ -380,7 +380,7 @@ body{
 } 
 
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 828px) {
     header{
         width:860px;
     }
@@ -411,12 +411,19 @@ body{
         height:500px;
     }
     .contact p {
-        flex-direction: column;
+        margin-left: 500px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .contact p:last-of-type {
+        position: absolute;
+        margin-left: 370px;
+        margin-top: 60px;
 
     }
+
     .contact a {
-        margin-left: 700px;
-        margin-bottom: 600px;
+        margin-left: 500px;
     }
   }
 
