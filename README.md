@@ -16,8 +16,8 @@
 This is my portfolio page that I'll be making use of as I expand my knowledge and work on more advanced projects.  I made use of most HTML and CSS concepts I've learned so far such as flex properties and margins for positioning, pseudoclasses for responsive actions, and gradients/background properties for aesthetic stylings.
 
 ## Code Snippet
-  <!--Makeup of project boxes-->
-  <figure class="projectbox-1">
+
+     <figure class="projectbox-1">
                 <figure class="titlebox">
                     <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat">
                     <p>Radio Station
@@ -26,7 +26,8 @@ This is my portfolio page that I'll be making use of as I expand my knowledge an
                     </p>
                 </a>
                 </figure>
- </figure>
+    </figure>
+
 
 ### Author Links
 - [LinkedIn](https://www.linkedin.com/in/marko-sanchez-800)
